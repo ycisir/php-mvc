@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class Router {
 
 	public static function handle($method = "GET", $path = "/", $controller = "", $action = null) {
@@ -47,7 +49,10 @@ class Router {
 		return self::handle("DELETE", $path, $controller, $action);
 	}
 
-	public static function dispatch($path = "/", $controller = "", $action = null) {
-		return self::handle("DELETE", $path, $controller, $action);
+	public static function dispatch($handleError) {
+		if(is_callable($handleError)){
+			$handleError();
+		}
+		exit();
 	}
 }

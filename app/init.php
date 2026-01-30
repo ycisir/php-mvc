@@ -2,7 +2,7 @@
 
 // echo "it works!" . PHP_EOL;
 
-require_once 'Router.php';
+use App\Router;
 
 // Router::get('/test', 'TestController');
 Router::get('/test', 'TestController', 'show');
@@ -14,3 +14,7 @@ Router::get('/test', 'TestController', 'show');
 // Router::get('/products/{id}/edit', 'ProductController', 'edit');
 // Router::put('/products/{id}', 'ProductController', 'update');
 // Router::delete('/products/{id}', 'ProductController', 'delete');
+
+Router::dispatch(function() {
+	echo "404 page not found!";
+});

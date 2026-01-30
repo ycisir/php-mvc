@@ -1,6 +1,9 @@
 <?php
 
-require_once '../app/Model.php';
+namespace Model;
+
+use App\Model;
+use PDO;
 
 class Student extends Model {
 

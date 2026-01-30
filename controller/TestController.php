@@ -1,7 +1,7 @@
 <?php
 
-require_once '../app/Controller.php';
-require_once '../model/Student.php';
+use App\Controller;
+use Model\Student;
 
 class TestController extends Controller {
 
