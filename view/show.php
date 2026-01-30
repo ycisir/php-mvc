@@ -1,0 +1,1 @@
+<h1>Hey, <?php echo $student->name; ?></h1>
