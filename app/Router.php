@@ -3,7 +3,6 @@
 namespace App;
 
 class Router {
-
 	public static function handle($method = "GET", $path = "/", $controller = "", $action = null) {
 		// print_r($_SERVER);
 		$currentMethod = $_SERVER["REQUEST_METHOD"];

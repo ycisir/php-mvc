@@ -14,6 +14,5 @@
 // VIEW is the component that displays thosa data
 // CONTROLLER is responsible for connecting the two (meaning it gets the data from model and prepares them then gives to view to display)
 
-
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../app/init.php';
