@@ -1,10 +1,16 @@
 # MVC
 A simple MVC Architecture using object-oriented principles
 
+### Prerequisites
+- PHP 8.4
+- Composer
+- MySQL (PDO)
+
 ### Getting Started
 ```
 git clone https://github.com/ycisir/php-mvc.git
 cd php-mvc
+composer dump-autoload
 php -S localhost:8000 -t public
 ```
 
