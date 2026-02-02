@@ -1,1 +1,4 @@
-<h1>Hey, <?php echo $student->name; ?></h1>
+<?php
+echo "----------------------------------------" . PHP_EOL;
+echo $student->name . PHP_EOL;
+echo "----------------------------------------" . PHP_EOL;

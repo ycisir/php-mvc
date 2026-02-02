@@ -9,5 +9,5 @@ Router::put('/update', 'StudentController', 'update');
 Router::delete('/delete', 'StudentController', 'delete');
 
 Router::dispatch(function() {
-	echo "404 page not found!";
+	echo "404 page not found!" . PHP_EOL;
 });

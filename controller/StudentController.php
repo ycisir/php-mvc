@@ -26,13 +26,13 @@ class StudentController extends Controller {
 
 	public function update() {
 		$studentTable = new Student($this->pdo);
-		$student = $studentTable->update(7 ,[
+		$student = $studentTable->update(8 ,[
 			"name" => "Ginny Potter"
 		]);
 	}
 
 	public function delete() {
 		$studentTable = new Student($this->pdo);
-		$student = $studentTable->delete();
+		$student = $studentTable->delete(8);
 	}
 }

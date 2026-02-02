@@ -1,7 +1,8 @@
-<h1>All students</h1>
+<?php
 
-<ol>
-	<?php foreach($students as $student) : ?>
-		<li><?php echo $student->name; ?></li>
-	<?php endforeach; ?>	
-</ol>
+echo "All students" . PHP_EOL;
+echo "----------------------------------------" . PHP_EOL;
+foreach($students as $student) {
+	echo $student->name . PHP_EOL;
+}
+echo "----------------------------------------" . PHP_EOL;

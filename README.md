@@ -31,3 +31,5 @@ curl -X PUT localhost:8000/update
 # Delete a student
 curl -X DELETE localhost:8000/delete
 ```
+
+### Screenshot
