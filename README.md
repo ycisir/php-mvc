@@ -33,3 +33,4 @@ curl -X DELETE localhost:8000/delete
 ```
 
 ### Screenshot
+![screenshot](https://github.com/ycisir/php-mvc/blob/main/public/images/screenshot.png)
